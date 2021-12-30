@@ -81,7 +81,7 @@ if not os.path.exists(UPLOAD_DIRECTORY):
 api = Flask(__name__)
 
 
-@app.route("/files")
+@app.route("/files/")
 def list_files():
     """Endpoint to list files on the server."""
     files = []
