@@ -78,7 +78,7 @@ if not os.path.exists(UPLOAD_DIRECTORY):
     os.makedirs(UPLOAD_DIRECTORY)
 
 
-api = Flask(__name__)
+app = Flask(__name__)
 
 
 @app.route("/files")
